@@ -1,6 +1,7 @@
-streamlit
-torch
-torchvision
+tensorflow
 numpy
-pillow
+pandas
+matplotlib
+seaborn
 scikit-learn
+pillow
