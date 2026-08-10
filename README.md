@@ -36,6 +36,18 @@ data/
 - **Single train/val/test split** (80/10/10, stratified) built once and reused throughout, with the test set never touched until final evaluation — so the reported numbers reflect genuine held-out performance.
 
 
+### Citation
+This project uses a Tuberculosis Chest X-ray dataset provided by Tawsifur Rahman et al. (2020).
+If you use this dataset, please cite:
+
+Tawsifur Rahman, Amith Khandakar, Muhammad A. Kadir, Khandaker R. Islam, 
+Khandaker F. Islam, Zaid B. Mahbub, Mohamed Arselene Ayari, 
+Muhammad E. H. Chowdhury. (2020). 
+
+"Reliable Tuberculosis Detection using Chest X-ray with Deep Learning, 
+Segmentation and Visualization". IEEE Access, Vol. 8, pp. 191586–191601.  
+DOI: 10.1109/ACCESS.2020.3031384.
+
 ## Usage
 
 1. Install dependencies: `pip install -r requirements.txt`
