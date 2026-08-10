@@ -35,17 +35,6 @@ data/
 - **Classification threshold** chosen by maximizing F1 on the validation set (rather than using the default 0.5), and re-derived after fine-tuning since the model's output probabilities shift.
 - **Single train/val/test split** (80/10/10, stratified) built once and reused throughout, with the test set never touched until final evaluation — so the reported numbers reflect genuine held-out performance.
 
-## Requirements
-
-```
-tensorflow
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-pillow
-```
 
 ## Usage
 
@@ -53,6 +42,3 @@ pillow
 2. Download and place the dataset as described above.
 3. Open `tb_chest_notebook.ipynb` and run all cells top to bottom.
 
-## Notes
-
-This is a learning/portfolio project, not a clinical tool. Performance numbers come from a single dataset and train/test split and have not been validated against real-world clinical deployment standards.
